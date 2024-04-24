@@ -1,0 +1,26 @@
+{
+  "name": "openapi-required-properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite-node ./src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/yawn-yaml": "^1.4.2",
+    "commander": "^12.0.0",
+    "lodash-es": "^4.17.21",
+    "vite-node": "^1.5.0",
+    "yawn-yaml": "^1.5.0"
+  },
+  "devDependencies": {
+    "@commander-js/extra-typings": "^12.0.1",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
